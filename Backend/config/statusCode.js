@@ -1,0 +1,10 @@
+const statusCode = {
+  SUCCESS: 200,
+  VALIDATION_ERROR: 400,
+  UNATHOZIATION: 401,
+  NOT_FOUND: 404,
+  DUPLICATE_VALUE: 409,
+  INTERNAL_SERVER_SERVER: 500,
+};
+
+export default statusCode;

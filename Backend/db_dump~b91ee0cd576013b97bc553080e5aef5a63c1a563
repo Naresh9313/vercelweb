@@ -1,0 +1,8 @@
+user
+-----
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"ab9fa49038a749abab426f2c89655ee8","collectionName":"users","type":"collection"}
+
+
+event
+  ---
+  {"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"58a73cadd3a9409f9e00f540a0ef4efe","collectionName":"events","type":"collection"}
