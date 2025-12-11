@@ -15,7 +15,7 @@ function Homepage() {
 
   const handleGet = async () => {
     try {
-      const url = `https://nareshprajapati9313.onrender.com/event/getEvent?search=${search}&category=${category}&sort=${sort}&page=${page}&limit=${limit}`;
+      const url = `https://vercelweb-swart.vercel.app/event/getEvent?search=${search}&category=${category}&sort=${sort}&page=${page}&limit=${limit}`;
 
       const res = await fetch(url, {
         headers: { Authorization: `Bearer ${token}` },
@@ -40,7 +40,7 @@ function Homepage() {
     }
 
     const res = await fetch(
-      `https://nareshprajapati9313.onrender.com/booking/eventBooking?userId=${user}&eventId=${eventId}&tickets=1`,
+      `https://vercelweb-swart.vercel.app/booking/eventBooking?userId=${user}&eventId=${eventId}&tickets=1`,
       { headers: { Authorization: `Bearer ${token}` } }
     );
 

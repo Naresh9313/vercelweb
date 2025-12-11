@@ -16,7 +16,7 @@ function Login() {
 
   const handleSubmit = async (values) => {
     try {
-      const res = await fetch("https://nareshprajapati9313.onrender.com/auth/login", {
+      const res = await fetch("https://vercelweb-swart.vercel.app/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),

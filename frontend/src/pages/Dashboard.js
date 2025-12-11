@@ -37,7 +37,7 @@ function Dashboard() {
       formData.append("eimage", values.eimage);
 
       const res = await axios.post(
-        "https://nareshprajapati9313.onrender.com/event/addEvent",
+        "https://vercelweb-swart.vercel.app/event/addEvent",
         formData,
         {
           headers: {
